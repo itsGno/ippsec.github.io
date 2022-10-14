@@ -1,0 +1,46 @@
+[{
+        "name": "SQL Injection",
+        "description": "xxxxxxxxxxxxxxxxxx",
+        "solution": [
+            "11111111111111",
+            "22222222222222",
+            "33333333333333"
+        ],
+        "link": [
+            "http://1111111.com",
+            "http://2222222.com",
+            "http://33333333.com"
+        ]
+    },
+    {
+        "name": "XSS",
+        "description": "SSSSSSSSSSSSSSSS",
+        "solution": [
+            "11111111111111",
+            "22222222222222",
+            "33333333333333"
+        ],
+        "link": [
+            "http://1111111.com",
+            "http://2222222.com",
+            "http://3333333.com",
+            "http://44444.com",
+            "http://6555555.com",
+            "http://6666.com",
+            "http://77777.com"
+        ]
+    },
+    {
+        "name": "Broken Access Control",
+        "description": "During testing, the penetration tester noticed that the application is vulnerable to `Broken Access Control` vulnerability. This vulnerability occurs when the application allows users to access to application endpoints without authentication and authorization mechanisms. An attacker can take advantage of this weakness  access to sensitive information for example JWT Token of the application backend.",
+        "solution": [
+            "Restricting direct access to data or files. All application functions and information should be authenticated and protected in accordance with business requirements. ",
+            "Sensitive files should not be directly downloaded. Separating the directories or permission setting among public and private files should be implemented. File should be transferred through the authenticated backend function.",
+            "Implement the authorization checks on the user before the task execution. The checks should include whether the user has the authorized role to execute the task."
+        ],
+        "link": [
+            "https://cheatsheetseries.owasp.org/cheatsheets/Access_Control_Cheat_Sheet.html"
+        ]
+    }
+
+]
